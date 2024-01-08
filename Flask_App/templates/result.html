@@ -1,0 +1,56 @@
+<!-- <html>
+<body>
+    <h2>Summary:</h2>
+    <p>{{ summary }}</p>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summarized Text - Result</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F3F3F3;
+            background-image: linear-gradient(to bottom right, #4b6cb7, #182848);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Adjust alignment to top */
+            min-height: 100vh; /* Change height to min-height */
+            overflow-y: scroll; /* Enable vertical scrolling */
+        }
+        
+        .content {
+            text-align: center;
+            background-color: #FFFFFF;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px; /* Add margin at the bottom for spacing */
+        }
+        
+        p {
+            width: 500px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Summary:</h2>
+            <p>{{ summary }}</p>
+        </div>
+    </div>
+</body>
+</html>

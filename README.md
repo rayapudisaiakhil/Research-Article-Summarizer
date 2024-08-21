@@ -1,6 +1,5 @@
 # Research-Article-Summarizer
-Article Summarizer
-This project is a simple article or text summarizer that uses frequency analysis to extract key sentences from a given text. It can be used to quickly generate summaries for long paragraphs or articles.
+This project is an article or text summarizer that uses frequency analysis to extract key sentences from a given text. It can be used to quickly generate summaries for long paragraphs or articles.
 
 How it Works
 The text summarizer works by following these steps:
